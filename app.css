@@ -5,6 +5,24 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+h1 {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 600;
+}
+h2 {
+  color: #231d4f;
+  font-size: 36px;
+  font-weight: 700;
+}
+h3 {
+  color: #231d4f;
+  font-size: 28px;
+  font-weight: 700;
+}
+small {
+  color: #848199;
+}
 
 .brand-text {
   color: #3e3e3e;
@@ -12,6 +30,7 @@ body {
 }
 
 .slider-text h1 {
+  color: white;
   font-size: 48px;
   font-weight: 600;
 }
@@ -31,11 +50,6 @@ body {
 }
 
 /* album style  */
-.text-album h1 {
-  color: #0a0826;
-  font-size: 38px;
-  font-weight: 700;
-}
 .text-album p {
   color: #6c6c6c;
   font-size: 16px;
@@ -48,4 +62,34 @@ body {
   border: none;
   background-color: #3f87f5;
   padding: 10px 24px;
+}
+
+.fa-check {
+  color: #5243c2;
+  margin-right: 14px;
+}
+
+.hot-package {
+  background-color: #3f87f5;
+  border-radius: 20px;
+  transform: scale(1.2);
+  padding: 20px;
+}
+.hot-package h2 {
+  color: #ffffff;
+}
+.hot-package h3 {
+  color: #ffffff;
+}
+.hot-package small {
+  color: #ffffff;
+}
+.hot-package .fa-check {
+  color: #ffffff;
+}
+.hot-package a {
+  font-size: 15px;
+  padding: 14px 75px;
+  background-color: #ffffff;
+  border-radius: 24px;
 }
